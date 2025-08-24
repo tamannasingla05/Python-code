@@ -1,7 +1,9 @@
 def search(arr, key):
+    #check each element one by one
     for i in range(len(arr)):
         if arr[i]==key:
             return i
+    #if the element is not found
     return -1
 
 if __name__=="__main__":
