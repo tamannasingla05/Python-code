@@ -11,8 +11,6 @@ if __name__=="__main__":
     arr = [23,56,34,12,67]
     n = len(arr)
 
-    
-
     print("Array before insertion:")
     for i in range(0,n):
         print(arr[i],end=" ")
