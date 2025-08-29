@@ -7,12 +7,13 @@ class Node:
 #function to search element
 def search(head,key):
     curr = head
-
+   
     while curr is not None:
         if (curr.data == key):
             return True
         
         curr = curr.next
+        
 
     return False
 
